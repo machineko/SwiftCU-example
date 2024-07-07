@@ -1,0 +1,5 @@
+module cudaKernel {
+    requires cplusplus
+    header "cuhead.hpp"
+    export *
+}
