@@ -18,7 +18,7 @@ let package = Package(
     name: "SwiftCU-example",
     dependencies: 
     [
-        .package(path: "/home/machineko/swiftStuff/SwiftCU")
+        .package(url: "https://github.com/machineko/SwiftCU", branch: "main")
     ],
     targets: [
         .target(
